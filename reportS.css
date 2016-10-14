@@ -1,0 +1,230 @@
+body{
+    height: 620px;
+    width: 1000px;
+    /*border: 1px solid black;*/
+    margin: 0 auto; 
+}
+
+.global{
+    height: 95%;
+    width: 90%;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 30px;
+    /*background-color: #e1f2f2;*/
+    border-radius: 4%;
+    box-shadow: 10px 10px 20px #888888;
+    background-image: url('back-pic.png');
+}
+
+.label{
+    height: 30px;
+    width: 60%;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    margin-top: 10px;
+    /*background-color: white;*/
+}
+
+.create-day{
+    float: left;
+    height: 430px;
+    width: 30%;
+    /*border: 1px solid black;*/
+    margin-left: 2.4%;
+    margin-top: 10px;
+    /*background-color: white;*/
+    background: rgba(255,255,255,0.3);
+    border-radius: 3%;
+}
+
+.day-list{
+    float: left;
+    height: 430px;
+    width: 63.67%;
+    /*border: 1px solid black;*/
+    margin: 10px 0px 0px 10px;
+    /* background-color: white;*/
+    overflow-y: scroll;
+}
+
+.report{
+    height: 83px;
+    width: 90%;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    margin-top: 10px;
+    /*background-color: white;*/
+    /*background: rgba(255,255,255,0.1);*/
+    
+    
+}
+
+.clear{
+    clear: both;
+}
+
+#head-line{
+    display: inline-block;   
+    margin: 0;
+
+
+}
+
+#slogan{
+    display: inline-block;
+    margin: 0;
+    margin-left: 25px;
+    font-size: 1.5em;
+}
+
+#select-text{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 80px;
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+#select-month{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+#hourly-caption{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 60px;
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+#hourly-wage{
+    position: absolute;
+    margin-top: 80px;
+    width: 35px;
+    margin-left: 170px;
+    text-align: center;
+}
+
+#day-caption{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 60px;
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+#day{
+    position: absolute;
+    margin-top: 130px;
+    width: 25px;
+    margin-left: 175px;
+    text-align: center;
+}
+
+#logon-caption{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 65px;
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+#logon-time{
+    position: absolute;
+    margin-top: 180px;
+    width: 40px;
+    text-align: center;
+    margin-left: 104px;
+}
+
+#exiting-caption{
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 65px;
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+#exiting-time{
+    position: absolute;
+    margin-top: 215px;
+    width: 40px;
+    text-align: center;
+    margin-left: 104px;
+}
+
+#check-caption{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 50px;
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+#check-break{
+    position: absolute;
+    margin-top: 263px;
+    margin-left: 210px;
+}
+
+#add-btn{
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 60px;
+    border: none;
+    background-color: dodgerblue;
+    padding: 5px 15px;
+    color: white;
+    font-size: 1.1em;
+}
+
+#clear-btn{
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 135px;
+    border: none;
+    background-color: dodgerblue;
+    padding: 5px 10px;
+    color: white;
+    font-size: 1.1em;
+}
+
+#add-btn:hover,#clear-btn:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+tr , td {
+    border: 1px solid black;
+}
+
+table{
+    height: 700px;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+td{
+    border-color: #2670CF;
+    text-align: center;
+    background: rgba(255,255,255,0.6);
+    
+}
+
+.output-caption{
+    float: left;
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-shadow: 0.1em 0.1em 0.2em darkslategray;
+}
+
+
+.output-data{
+    float: left;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 65px;
+    width: 65px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em yellow;
+}
